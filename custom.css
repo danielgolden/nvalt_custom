@@ -9,7 +9,7 @@ Description: Github README style. Includes theme for Pygmentized code blocks.
 */
 
 html,
-body { color: #333 }
+body { color: #333; margin: 0; }
 
 *:not('#mkdbuttons') {
     margin: 0;
@@ -37,7 +37,7 @@ a {
 #wrapper {
     background-color: #fff;
     padding: 10px;
-    margin: 15px;
+    margin: 25px;
     font-size: 14px;
     line-height: 1.6;
 }
@@ -149,4 +149,8 @@ h4.completed_task,
 h5.completed_task, 
 h6.completed_task {
     color: #999;
+}
+
+.doctitle {
+    cursor: pointer;
 }

@@ -154,3 +154,11 @@ h6.completed_task {
 .doctitle {
     cursor: pointer;
 }
+
+.note {
+    color: rgba(0,0,0, .55);
+    font-size: 12px;
+    background-color: rgba(0,40,100,.039);
+    padding: 10px 15px 8px;
+    border: 1px solid rgba(0,150,225, .1);
+}

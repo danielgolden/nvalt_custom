@@ -1,0 +1,66 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>{%title%}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href="solarized_light.css">
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <header>
+      <h1 class="doctitle">CUREMoms Site Changes</h1>
+    </header>
+    
+    <div id="contentdiv">
+      <h2 id="general">General</h2>
+
+      <ul>
+        <li>Redesign buttons (less pink) @done</li>
+        <li>Make lower col_secs look less pink @done</li>
+        <li><strong>Add prayer requests page</strong> (just duplicate about page) @done</li>
+        <li>Remove &#8220;Prayer Requests&#8221; link from nav @done</li>
+        <li>Hide second row of links in footer @addressed</li>
+        <li>Reorder nav links: @done
+
+          <ol>
+            <li>About</li>
+            <li>Stories</li>
+            <li>Devotions</li>
+            <li>Get Involved</li>
+          </ol>
+        </li>
+        <li>Home page social link button needs modal window to popup and say &#8220;Link for CUREMoms: &#8221;</li>
+      </ul>
+
+      <h2 class="other_stuff">Other stuff</h2>
+      <ul>
+        <li>Nulla quis tortor orci. Etiam at risus et justo dignissim.</li>
+        <li>Morbi malesuada nulla nec purus convallis consequat.</li>
+        <li>Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.
+          <blockquote>
+          Morbi malesuada nulla nec purus convallis consequat. Vivamus id mollis quam. Morbi ac commodo nulla. In condimentum orci id nisl volutpat bibendum. Quisque commodo hendrerit lorem quis egestas. Maecenas quis tortor arcu. Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis.
+          </blockquote>
+        </li>
+        <li>Make lower col_secs look less pink @addressed</li>
+      </ul>
+    </div>
+
+  </div> <!-- end of #container -->
+
+  <script>(function($){$('h1,h2,h3,h4').each(function(){$(this).html($(this).text().replace(/([^\\s])\\s+([^\\s]{1,5})\\s*$/,'$1&nbsp;$2'));});$('a[href^=#]').click(function(){if(location.pathname.replace(/^\\//,'')==this.pathname.replace(/^\\//,'')&&location.hostname==this.hostname){var $target=$(this.hash);$target=$target.length&&$target||$('[id='+this.hash.slice(1)+']');if($target.length){var targetOffset=$target.offset().top;$('#contentdiv').animate({scrollTop:targetOffset-40},1000);return false;}}});$('#contentdiv').scroll(function(){if(this.scrollTop>150){if($('#backtotop').length==0)
+$('h1.doctitle').append($('<a href="javascript:void()" id="backtotop" />').text('Back to top').css({'float':'right','display':'none'}).click(function(){$('#contentdiv').animate({scrollTop:0},1000);}));$('#backtotop').fadeIn('slow');}else{$('#backtotop').fadeOut('slow',function(){$(this).remove();});}});})(jQuery);
+  </script>
+  <script src="jquery.js"></script>
+  <script src="script.js"></script>
+  <script src="highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>

@@ -156,7 +156,7 @@ h6.completed_task {
 }
 
 .note {
-    color: rgba(0,0,0, .55);
+    color: #777;
     font-size: 12px;
     background-color: rgba(0,40,100,.039);
     padding: 10px 15px 8px;

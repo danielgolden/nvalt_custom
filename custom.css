@@ -106,7 +106,7 @@ ol { padding-left: 30px }
 ol li ul:first-of-type { margin-top: 0 }
 
 code {
-    font-family: 'source code pro';
+    font-family: 'source code pro', Monaco, MonoSpace;
     font-size: 13px;
 }
 

@@ -139,7 +139,7 @@ blockquote:before {
 }
 
 li.completed_task {
-  color: #999;
+  color: #adadad;
 }
 
 h1.completed_task, 

@@ -167,6 +167,7 @@ h6.completed_task {
     border: 1px solid;
     padding: 3px 4px 2px;
     font-size: 12px;
+    font-weight: normal;
     border-radius: 3px;
 }
 

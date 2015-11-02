@@ -15,3 +15,17 @@ $('.doctitle').click(function() {
 		$('.completed_task').hide();
 	}
 });
+
+$('li:contains("@waiting")')
+
+$('li:contains("@waiting")').html(function(_, html) {
+   return html.replace(/(@waiting)/g, '<span class="status status-waiting">Waiting</span>');
+});
+
+$('li:contains("@unstarted")').html(function(_, html) {
+   return html.replace(/(@unstarted)/g, '<span class="status status-unstarted">Unstarted</span>');
+});
+
+$('li:contains("@inprogress")').html(function(_, html) {
+   return html.replace(/(@inprogress)/g, '<span class="status status-in-progress">In Progress</span>');
+});

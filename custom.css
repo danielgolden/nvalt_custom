@@ -162,3 +162,28 @@ h6.completed_task {
     padding: 10px 15px 8px;
     border: 1px solid rgba(0,150,225, .1);
 }
+
+.status {
+    border: 1px solid;
+    padding: 3px 4px 2px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.status-waiting {
+    border-color: #C39D53;
+    background-color: #FFFCF1;
+    color: #936916;
+}
+
+.status-unstarted {
+    border-color: #D38C8C;
+    background-color: #FFF1F1;
+    color: #AF3B3B;
+}
+
+.status-in-progress {
+    border-color: #6EAC71;
+    background-color: #F2FFF1;
+    color: #3BA436;
+}
